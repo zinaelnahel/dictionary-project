@@ -8,10 +8,7 @@ function App() {
         <header className="App-header">
  <img src={logo} className="App-logo" alt="logo"></img></header>
  <main> <Dictionary/></main>
- <footer className="text-center">Coded by Zina El Nahel </footer>
- <p>lalalalalal</p>
-      </div></div>
-  
-  )}
+ <footer className="App-footer"><small>Coded by Zina El Nahel</small> </footer>
+ </div></div>)}
 
 export default App;
