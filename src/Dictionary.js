@@ -3,7 +3,7 @@ import "./Dictionary.css";
 export default function Dictionary(){
     let[keyword,setKeyword]=useState("");
     function search(event){event.preventDefault();
-    alert(`Searching for ${keyword}`);}
+    alert(`Searching for ${keyword} definition`);}
     function handleKeyWordChange(event){
         setKeyword(event.target.value);
     }
